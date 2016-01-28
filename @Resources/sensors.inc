@@ -227,3 +227,11 @@ FB-DIMM-CH2-FBD0=0x1000008
 FB-DIMM-CH2-FBD1=0x1000009
 FB-DIMM-CH3-FBD0=0x100000c
 FB-DIMM-CH3-FBD1=0x100000d
+
+; Network Address Space
+;===== Required Data =====
+NetworkSensorID=0xf000ea00
+NetworkSensorInstance=0x0
+;===== Stats =====
+Network-CurraentDL=0x8000002
+Network-CurraentUL=0x8000003
