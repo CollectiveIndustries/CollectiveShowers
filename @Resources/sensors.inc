@@ -9,7 +9,6 @@
 ; and for core 3 clock on CPU 1 = CPU0-C2-Clock
 ; this can be expanded for any number of CPU's or Even Cores by replicating the proper sections and naming them accordingly
 
-
 ; CPU #0
 ;===== Required Data =====
 CPU0-SensorID=0xf0000300
@@ -79,7 +78,6 @@ CPU0-GPU0-Clock=0x6000000
 CPU0-GPU0-Usage=0x7000000
 CPU0-GPU0-Memory=0x8000002
 
-
 ; System Memory
 ;===== Required Data =====
 System-SensorID=0xf0000301
@@ -112,20 +110,19 @@ GPU0-Power-Norm=0x800003a
 GPU0-Power=0x800003b
 GPU0-PCIe-Speed=0x800003f
 
-
 ; HDD0 S.M.A.R.T.
 ;===== Required Data =====
-;HDD0-SMART-SensorID=0xf0000100
-;HDD0-SMART-SensorInstance=0x5
+HDD0-SMART-SensorID=0xf0000100
+HDD0-SMART-SensorInstance=0x0
 ;===== S.M.A.R.T. Stats =====
-;HDD0-Temp=0x1000000
-;HDD0-Drive-Fail=0x8000000
-;HDD0-Drive-Warning=0x8000001
+HDD0-Temp=0x1000000
+HDD0-Drive-Fail=0x8000000
+HDD0-Drive-Warning=0x8000001
 
 ; HDD 0
 ;===== Required Data =====
 HDD0-SensorID=0xf0000101
-HDD0-SensorInstance=0x2
+HDD0-SensorInstance=0x0
 ;===== Stats =====
 HDD0-Read-Per=0x7000000
 HDD0-Write-Per=0x7000001
@@ -136,7 +133,7 @@ HDD0-Write-Rate=0x8000001
 ; HDD1 S.M.A.R.T.
 ;===== Required Data =====
 HDD1-SMART-SensorID=0xf0000100
-HDD1-SMART-SensorInstance=0x5
+HDD1-SMART-SensorInstance=0x1
 ;===== S.M.A.R.T. Stats =====
 HDD1-Temp=0x1000000
 HDD1-Drive-Fail=0x8000000
@@ -145,7 +142,7 @@ HDD1-Drive-Warning=0x8000001
 ; HDD1
 ;===== Required Data =====
 HDD1-SensorID=0xf0000101
-HDD1-SensorInstance=0x0
+HDD1-SensorInstance=0x1
 ;===== Stats =====
 HDD1-Read-Per=0x7000000
 HDD1-Write-Per=0x7000001
@@ -161,7 +158,6 @@ HDD2-SMART-SensorInstance=0x6
 HDD2-Temp=0x1000000
 HDD2-Drive-Fail=0x8000000
 HDD2-Drive-Warning=0x8000001
-
 
 ; HDD2
 ;===== Required Data =====
