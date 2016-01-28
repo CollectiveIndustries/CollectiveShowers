@@ -229,5 +229,5 @@ FB-DIMM-CH3-FBD1=0x100000d
 NetworkSensorID=0xf000ea00
 NetworkSensorInstance=0x0
 ;===== Stats =====
-Network-CurraentDL=0x8000002
-Network-CurraentUL=0x8000003
+Network-CurrentDL=0x8000002
+Network-CurrentUL=0x8000003
