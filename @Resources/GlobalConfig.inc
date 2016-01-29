@@ -9,6 +9,7 @@ TextColorBody=71BCD2
 TextColorTitle=0, 192, 0, 255
 TextColorSubTitle=255,255,255,255
 FontSizeTitle=12
+FontSizeSubTitle=11
 FontSizeBody=10
 
 ; ----------------------------------
@@ -24,6 +25,30 @@ FontEffectColor=0,0,0,50
 FontColor=#TextColorTitle#
 FontFace=#FontStyle#
 FontSize=#FontSizeTitle#
+AntiAlias=1
+ClipString=1
+
+[styleSubTitle]
+StringAlign=CENTER
+StringCase=NONE
+StringStyle=Bold
+StringEffect=SHADOW
+FontEffectColor=0,0,0,20
+FontColor=#TextColorSubTitle#
+FontFace=#FontStyle#
+FontSize=#FontSizeSubTitle#
+AntiAlias=1
+ClipString=1
+
+[styleSubTitleL]
+StringAlign=LEFT
+StringCase=NONE
+StringStyle=Bold
+StringEffect=SHADOW
+FontEffectColor=0,0,0,20
+FontColor=#TextColorSubTitle#
+FontFace=#FontStyle#
+FontSize=#FontSizeSubTitle#
 AntiAlias=1
 ClipString=1
 
